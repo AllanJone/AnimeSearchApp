@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimeSearchApp.Views.AnimesPage">
+    <StackLayout>
+        <SearchBar TextChanged="OnTextChanged" Placeholder="Search by Anime....."/>
+        <ActivityIndicator IsRunning="{Binding IsSearching}"/>
+        <Frame x:Name="notFound" Padding="20" HasShadow="False" IsVisible="False">
+            <Label Text="No animes found matching your search"/>
+        </Frame>
+        <ListView x:Name="animesListView" ItemSelected="OnAnimeSelected" IsVisible="False">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell ImageSource="{Binding ImageURL}" Text="{Binding Title}" Detail="{Binding Type}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

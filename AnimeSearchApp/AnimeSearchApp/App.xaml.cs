@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AnimeSearchApp.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace AnimeSearchApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new AnimesPage());
         }
 
         protected override void OnStart()
