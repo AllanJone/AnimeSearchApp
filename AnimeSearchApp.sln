@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeSearchApp.Android", "AnimeSearchApp\AnimeSearchApp.Android\AnimeSearchApp.Android.csproj", "{452A211F-3132-4B22-BFFC-9F4CFAE9DB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeSearchApp", "AnimeSearchApp\AnimeSearchApp\AnimeSearchApp.csproj", "{D8166CA1-CE4B-439A-8FD5-C3268D3E69B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{452A211F-3132-4B22-BFFC-9F4CFAE9DB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452A211F-3132-4B22-BFFC-9F4CFAE9DB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452A211F-3132-4B22-BFFC-9F4CFAE9DB66}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{452A211F-3132-4B22-BFFC-9F4CFAE9DB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452A211F-3132-4B22-BFFC-9F4CFAE9DB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{452A211F-3132-4B22-BFFC-9F4CFAE9DB66}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D8166CA1-CE4B-439A-8FD5-C3268D3E69B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8166CA1-CE4B-439A-8FD5-C3268D3E69B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8166CA1-CE4B-439A-8FD5-C3268D3E69B2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D8166CA1-CE4B-439A-8FD5-C3268D3E69B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8166CA1-CE4B-439A-8FD5-C3268D3E69B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8166CA1-CE4B-439A-8FD5-C3268D3E69B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B685481-4E27-4921-ADE2-0220CBAD96FD}
+	EndGlobalSection
+EndGlobal
